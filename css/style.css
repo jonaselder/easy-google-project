@@ -67,14 +67,28 @@ html {
         background-color: red;
     }
 
-    #boxdecoration{
+    #boxdecoration {
         display: flex;
         justify-content: center;
         align-items: center;
         position: absolute;
         background-color: blue;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         width: 482px;
         height: 44px;
+    }
+
+    #voice {
+        position: absolute;
+        padding-right: 20px;
+        background-image: url(file:///home/jonas/Documents/OdinProject/easygoogleproject/images/mic.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 24px;
+        width: 24px;
+        right: 0px;
+
     }
