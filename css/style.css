@@ -47,7 +47,7 @@ html {
         position: relative;
         width: 100%;
         height: 200px;
-        top: 348px;
+        top: 320px;
     }
 
     form {
@@ -64,7 +64,7 @@ html {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
         border: none;
-        background-color: red;
+        background-color: transparent;
     }
 
     #boxdecoration {
@@ -72,7 +72,7 @@ html {
         justify-content: center;
         align-items: center;
         position: absolute;
-        background-color: blue;
+        background-color: white;
         border: 1px solid #dfe1e5;
         border-radius: 24px;
         margin: 0 0 0 0;
@@ -83,12 +83,55 @@ html {
 
     #voice {
         position: absolute;
-        padding-right: 20px;
         background-image: url(file:///home/jonas/Documents/OdinProject/easygoogleproject/images/mic.png);
         background-repeat: no-repeat;
         background-position: center;
         height: 24px;
         width: 24px;
-        right: 0px;
+        right: 20px;
 
+    }
+
+    #search {
+        position: absolute;
+        background-image: url(file:///home/jonas/Documents/OdinProject/easygoogleproject/images/searchsprites.webp);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 20px;
+        height: 20px;
+        width: 20px;
+        left: 20px
+    }
+
+    #buttons {
+        position: absolute;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        bottom: 10px;
+    }
+
+    #submit {
+        position: absolute;
+        left: 20px;
+        bottom: 0px;
+        height: 36px;
+        width: 140px;
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 0 16px;
+
+    }
+
+    #lucky {
+        position: absolute;
+        right: 20px;
+        bottom: 0px;
+        height: 36px;
+        width: 140px;
+        border: 1px solid #f2f2f2;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 0 16px;
     }
