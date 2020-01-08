@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="css/cssreset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Google</title>
-    </head>
-<body background: rgb(255, 255, 255)>
-  <div id="container"> 
-      <header>
-        <div id="leftheader" class="headtext">
-            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-            <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a> 
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class=space></div>
+    <div class="header">
+        <div id="left">
+            <a href="about">About</a>
+            <a href="store">Store</a>
         </div>
-        <div id="rightheader" class="ilb">   
-            <a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
-            <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
-            <span>apps tab</span>
-            <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fhl%3Den-US">Sign in</a>
+        <div class="right">
+            <a href="gmail">Gmail</a>
+            <a href="images">Images</a>
+            <a href="apps" id="apps"></a>
+            <a href="signin" id="signin">Sign in</a>
         </div>
-      </header>
-      <div id="logo"></div>
-      <div id="formposition">
-          <form>
-              <div id="boxdecoration">
-                <input type="text">  
-                 <div id="voice"></div>
-                 <div id="search"></div>
-              </div>
-          </form>
-              <input id="submit" value="Google Search" type="submit">
-              <input id="lucky" value="I'm Feeling Lucky" type="submit">
-      </div>
     </div>
-  </body>
+        <div id="logoform">
+            <div id="logo"></div>
+            <div id="form">
+                <form>
+                    <div class="text">
+                        <span class="glass"></span>
+                        <input type="text">
+                        <span class="mic"></span>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Google Search">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fleft">
+                <a href="advertising">Advertising</a>
+                <a href="business">Business</a>
+                <a href="how">How Search Works</a>
+            </div>
+            <div class="fright">
+                <a href="privacy">Privacy</a>
+                <a href="terms">Terms</a>
+                <a href="settings">Settings</a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
