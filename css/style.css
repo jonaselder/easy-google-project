@@ -109,7 +109,7 @@ a#signin{
 
 #logo{
     height: 92px;    
-    background-image: url(file:///home/https://jonaselder.github.io/easy-google-project/images/logo.png);
+    background-image: url(https://jonaselder.github.io/easy-google-project/images/logo.png);
     width: 272px;
     left: calc(50% - 272px/2);
     position: relative;
