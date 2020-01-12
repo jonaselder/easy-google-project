@@ -5,12 +5,12 @@ html{
 
 @font-face{
     font-family: 'roboto';
-    src: url('https://jonaselder.github.io/easy-google-project/fonts/fonts/roboto.woff2');
+    src: url('https://jonaselder.github.io/google-homepage/fonts/fonts/roboto.woff2');
 }
 
 @font-face{
     font-family: 'roboto';
-    src: url('https://jonaselder.github.io/easy-google-project/fonts/robotobold.woff2');
+    src: url('https://jonaselder.github.io/google-homepage/fonts/robotobold.woff2');
     font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ a#signin{
 
 
 #apps{
-    background-image: url(https://jonaselder.github.io/easy-google-project/images/imagemap.png);
+    background-image: url(https://jonaselder.github.io/google-homepage/images/imagemap.png);
     background-size: 528px 68px;
     background-position: -132px -38px;
     height: 30px;
@@ -114,7 +114,7 @@ a#signin{
 
 #logo{
     height: 92px;    
-    background-image: url(https://jonaselder.github.io/easy-google-project/images/logo.png);
+    background-image: url(https://jonaselder.github.io/google-homepage/images/logo.png);
     width: 272px;
     left: calc(50% - 272px/2);
     position: relative;
@@ -157,7 +157,7 @@ input[type=text]{
 }
 
 .glass{
-    background-image: url(https://jonaselder.github.io/easy-google-project/images/imagemap.png);
+    background-image: url(https://jonaselder.github.io/google-homepage/images/imagemap.png);
     background-size: 509px 66px;
     background-position: -242px -36px;
     height: 20px;
@@ -170,7 +170,7 @@ input[type=text]{
 }
 
 .mic{
-    background-image: url(https://jonaselder.github.io/easy-google-project/images/mic.png);
+    background-image: url(https://jonaselder.github.io/google-homepage/images/mic.png);
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
